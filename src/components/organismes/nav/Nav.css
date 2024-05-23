@@ -1,0 +1,13 @@
+.divNav {
+    height: 11vh;
+    background-color: #141a32;
+    margin-bottom: 2rem;
+}
+
+.divImageNav {
+    display: flex;
+    align-items: center;
+    max-width: 260px;
+    height: 100%;
+    margin-left: 10rem;
+}

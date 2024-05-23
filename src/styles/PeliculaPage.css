@@ -1,0 +1,46 @@
+body {
+    background-color: #080f28;
+}
+
+.divContenido {
+    min-height: auto;
+    width: 80%;
+    display: flex;
+    margin: auto;
+    margin-bottom: 7rem;
+}
+
+.divPeliculasPage {
+    width: 80%;
+}
+.divPeliculaDestacadasPage{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+.divPeliculasPage h2 {
+    color: white;
+    font-size: 2.05rem;
+    font-weight: 700;
+    font-family: BlinkMacSystemFont, segoe ui, Roboto, Oxygen, Ubuntu, Cantarell, open sans, helvetica neue, sans-serif;
+}
+
+.divPeliculaDestacadasPage h2{
+    color: white;
+    font-size: 2.05rem;
+    font-weight: 700;
+    font-family: BlinkMacSystemFont, segoe ui, Roboto, Oxygen, Ubuntu, Cantarell, open sans, helvetica neue, sans-serif;
+}
+
+.divCardsPeliculas{
+    display: flex;
+    margin-top: 5rem;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    gap: 6rem ;
+    justify-content:start;
+}
